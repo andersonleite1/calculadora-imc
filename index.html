@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC: Cálculo de Índice Massa Corporal</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <section class="container">
+        <h1>Tabela IMC</h1>
+
+        <table>
+            <tr>
+                <td class="header-table">IMC</td>
+                <td class="header-table">Resultado</td>
+            </tr>
+
+            <tr>
+                <td>Menos que 18,5</td>
+                <td>Abaixo do peso</td>
+            </tr>
+            <tr>
+                <td>Entre 18,5 e 24,9</td>
+                <td>Peso normal</td>
+            </tr>
+            <tr>
+                <td>Entre 25 e 29,9</td>
+                <td>Sobrepeso</td>
+            </tr>
+            <tr>
+                <td>Entre 30 e 34,9</td>
+                <td>Obsidade grau 1</td>
+            </tr>
+            <tr>
+                <td>Entre 35 e 39,9</td>
+                <td>Obsidade grau 2</td>
+            </tr>
+            <tr>
+                <td>Mais do que 40</td>
+                <td>Obsidade grau 3</td>
+            </tr>
+        </table>
+
+        <h2>Calcule seu IMC</h2>
+
+        <form action="" class="formulario">
+            <label for="">Peso:</label>
+            <input type="text" class="peso" placeholder="Ex: 69">
+
+            <label for="">Altura:</label>
+            <input type="text" class="altura" placeholder="Ex: 1.70">
+            <button>Enviar</button>
+        </form>
+
+        <div class="resultado"></div>
+
+    </section>
+    <footer>
+        <address>
+            by <a href="">Anderson Leite</a>
+        </address>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
